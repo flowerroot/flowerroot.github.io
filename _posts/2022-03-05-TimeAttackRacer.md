@@ -1,16 +1,17 @@
 ---
 layout: single
 title: "Time Attack Racer."
-categories: Development-note
+categories: UnrealEngine
 tag: [UnrealEngine, BluePrint, Game]
 toc: true
 ---
 
 **Unreal Engine4**를 활용하여 간단한 레이싱 게임을 제작해 보았습니다.
 
+
 ## BluePrint
 
-![01](../images/2022-03-05-TimeAttackRacer/01.PNG)
+![01](../../images/2022-03-05-TimeAttackRacer/01.PNG)
 
 ![02](../../images/2022-03-05-TimeAttackRacer/02.PNG)
 
@@ -46,5 +47,47 @@ toc: true
 
 ## Map
 
+![map-01](../../images/2022-03-05-TimeAttackRacer/map-01.PNG)
+
+![map-02](../../images/2022-03-05-TimeAttackRacer/map-02.PNG)
+
+![map-03](../../images/2022-03-05-TimeAttackRacer/map-03.PNG)
+
+![map-04](../../images/2022-03-05-TimeAttackRacer/map-04.PNG)
+
+![map-05](../../images/2022-03-05-TimeAttackRacer/map-05.PNG)
+
+![map-06](../../images/2022-03-05-TimeAttackRacer/map-06.PNG)
+
+![map-07](../../images/2022-03-05-TimeAttackRacer/map-07.PNG)
+
+![map-08](../../images/2022-03-05-TimeAttackRacer/map-08.PNG)
+
+![map-09](../../images/2022-03-05-TimeAttackRacer/map-09.PNG)
+
+
+
 ## in Game
 
+![inGame-01](../../images/2022-03-05-TimeAttackRacer/inGame-01.PNG)
+
+![inGame-02](../../images/2022-03-05-TimeAttackRacer/inGame-02.PNG)
+
+![inGame-03](../../images/2022-03-05-TimeAttackRacer/inGame-03.PNG)
+
+![inGame-04](../../images/2022-03-05-TimeAttackRacer/inGame-04.PNG)
+
+![inGame-05](../../images/2022-03-05-TimeAttackRacer/inGame-05.PNG)
+
+![inGame-06](../../images/2022-03-05-TimeAttackRacer/inGame-06.PNG)
+
+![inGame-07](../../images/2022-03-05-TimeAttackRacer/inGame-07.PNG)
+
+![inGame-08](../../images/2022-03-05-TimeAttackRacer/inGame-08.PNG)
+
+![inGame-09](../../images/2022-03-05-TimeAttackRacer/inGame-09.PNG)
+
+![inGame-10](../../images/2022-03-05-TimeAttackRacer/inGame-10.PNG)
+
+## Tutorial
+{% include video id="VJj6rQpktyI&list=PLZlv_N0_O1gYdhCvvMKGpCF6LCgBz9XeS" provider="youtube" %}

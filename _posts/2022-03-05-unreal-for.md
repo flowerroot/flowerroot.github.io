@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "UnrealEngine Sort."
-categories: Development-note
+categories: UnrealEngine
 tag: [UnrealEngine, BluePrint, Sort, Loop]
 toc: false
 ---
