@@ -17,9 +17,9 @@ toc: true
 #include<time.h>
 #include<math.h>
 
-#define		WINX		600
-#define		WINY		400
-#define		PI			3.141592
+#define	WINX 600
+#define	WINY 400
+#define	PI 3.141592
 
 GLUquadricObj* cylinder;
 GLfloat RightArm_x = 0;
