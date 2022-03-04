@@ -32,3 +32,6 @@ Source of photos: https://50plus.or.kr/detail.do?id=9784213
 # Hello World 2!
 
 안녕하세요?
+
+test!
+{% include video id="pkbKP8NEo_I" provider="youtube" %}
