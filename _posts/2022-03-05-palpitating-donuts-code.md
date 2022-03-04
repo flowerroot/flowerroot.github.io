@@ -19,14 +19,12 @@ WireTorus가 좌우로 팽창, 수축을 반복하는 형태입니다.
 GLfloat Size1 = 0;
 GLfloat Size2 = 0;
 
-void Draw()
-{
+void Draw() {
 	glClear(GL_COLOR_BUFFER_BIT);
 
 	if (Size1 <= 600)
 		glViewport(100, 50, 600 + Size1, 600);
-	else
-	{
+	else {
 		glViewport(100, 50, 1200 - Size2, 600);
 	}
 
@@ -35,21 +33,16 @@ void Draw()
 	gluLookAt(0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 1.0, 0.0);
 	glutWireTorus(0.2, 0.4, 60, 60);
 	glutSwapBuffers();
-
 }
 
-void Timer(int a)
-{
+void Timer(int a) {
 	if (Size1 <= 600)
 		Size1 = Size1 + 1;
-	else
-	{
+	else {
 		if (Size2 <= 600)
 			Size2 = Size2 + 1;
-		if (Size1 > 600)
-		{
-			if (Size2 > 600)
-			{
+		if (Size1 > 600) {
+			if (Size2 > 600) {
 				Size1 = 0;
 				Size2 = 0;
 			}
@@ -60,8 +53,7 @@ void Timer(int a)
 	glutTimerFunc(1, Timer, 1);
 }
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_RGB);
 	glutInitWindowSize(1200, 600);
@@ -97,8 +89,7 @@ int Wirerframed = 0;
 int ViewX = 0;
 int ViewY = 0;
 
-void InitLight()
-{
+void InitLight() {
 	GLfloat mat_diffuse[] = { 0.5, 0.4, 0.3, 1.0 };
 	GLfloat mat_specular[] = { 1.0, 1.0, 1.0, 1.0 };
 	GLfloat mat_ambient[] = { 0.5, 0.4, 0.3, 1.0 };
@@ -120,27 +111,22 @@ void InitLight()
 	glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
 }
 
-void MyMouseMove(GLint X, GLint Y,int A,int Z) //마우스 움직임 X, Y를 전역 변수인 ViewX, ViewY에 할당
-{
+//마우스 움직임 X, Y를 전역 변수인 ViewX, ViewY에 할당
+void MyMouseMove(GLint X, GLint Y,int A,int Z) {
 	glutPostRedisplay();
 }
 
-void MyKeyboard(unsigned char key, int x, int y)
-{
+void MyKeyboard(unsigned char key, int x, int y) {
 	GLint FlatShaded = 0;
-	switch (key)
-	{
+	switch (key) {
 	case 'q': case 'Q': case '\033':
 		exit(0);
 		break;
 	case 's':
-		if (FlatShaded)
-		{
+		if (FlatShaded) {
 			glShadeModel(GL_SMOOTH);
 		}
-
-		else
-		{
+		else {
 			FlatShaded = 1;
 			glShadeModel(GL_FLAT);
 		}
@@ -149,8 +135,7 @@ void MyKeyboard(unsigned char key, int x, int y)
 	}
 }
 
-void MyDisplay()
-{
+void MyDisplay() {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
@@ -163,16 +148,14 @@ void MyDisplay()
 
 
 
-void MyReshape(int w, int h)
-{
+void MyReshape(int w, int h) {
 	glViewport(0, 0, (GLsizei)w, (GLsizei)h);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
 }
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA | GLUT_DEPTH);
 	glutInitWindowSize(400, 400);

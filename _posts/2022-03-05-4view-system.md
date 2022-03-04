@@ -17,8 +17,7 @@ WireTeapot을 다양한 각도에서 확인하고 SolidTeapot에 조명효과를
 
 int w, h;
 
-void InitLight()
-{
+void InitLight() {
 	GLfloat mat_diffuse[] = { 0.5,0.5,0.6,1.0 };
 	GLfloat mat_specular[] = { 1.0,1.0,1.0,1.0 };
 	GLfloat mat_ambient[] = { 0.2,0.2,0.2,1.0 };
@@ -41,8 +40,7 @@ void InitLight()
 	glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
 }
 
-void Draw()
-{	
+void Draw() {	
 	glColor3f(0.5, 0.5, 0.5);
 	glPushMatrix();
 	glTranslatef(0, -1, 0);
@@ -60,8 +58,7 @@ void Draw()
 	glPopMatrix();
 }
 
-void DrawScene()
-{
+void DrawScene() {
 	glDisable(GL_LIGHTING);
 	glColor3f(0.3, 0.3, 0.7);
 	glPushMatrix();
@@ -109,8 +106,7 @@ void MyDisplay() {
 	glutSwapBuffers();
 }
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
 	glutInitWindowSize(650, 650);
