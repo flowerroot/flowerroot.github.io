@@ -2,7 +2,7 @@
 layout: single
 title: "PhoneBook Program"
 categories: C
-tag: [C]
+tag: [C, PhoneBook]
 toc: false
 ---
 
