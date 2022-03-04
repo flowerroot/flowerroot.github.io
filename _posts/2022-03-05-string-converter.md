@@ -19,7 +19,6 @@ toc: false
 void upper_case(char input[]); // 문자열 변환 함수 선언
 
 int main(void) {
-
 	char input[] = "My Name is YeongJin Kim";
 	upper_case(input);
 	printf("%s", input);
