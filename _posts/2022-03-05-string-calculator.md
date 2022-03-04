@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "문자열계산기."
+title: "String Calculator."
 categories: C
 tag: [C, calculator]
 ---

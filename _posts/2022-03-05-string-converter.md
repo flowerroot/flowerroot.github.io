@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "문자열변환기."
+title: "String Converter."
 categories: C
 tag: [C, converter]
 toc: false
