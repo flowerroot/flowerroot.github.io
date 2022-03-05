@@ -90,4 +90,4 @@ toc: true
 ![inGame-10](../../images/2022-03-05-TimeAttackRacer/inGame-10.PNG)
 
 ## Tutorial
-{% include video id="VJj6rQpktyI&list=PLZlv_N0_O1gYdhCvvMKGpCF6LCgBz9XeS" provider="youtube" %}
+{% include video id="VJj6rQpktyI" provider="youtube" %}
