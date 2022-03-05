@@ -91,11 +91,3 @@ toc: true
 
 ## Tutorial
 {% include video id="VJj6rQpktyI" provider="youtube" %}
-
-{% include video id="pkbKP8NEo_I" provider="youtube" %}
-
-TEST
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VJj6rQpktyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-TEST
