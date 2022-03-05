@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "두근두근 도넛."
-categories: Computer-Graphics
+categories: OpenGL
 tag: [OpenGL, CG]
 toc: true
 ---

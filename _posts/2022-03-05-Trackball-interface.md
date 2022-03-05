@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Trackball interface."
-categories: Computer-Graphics
+categories: OpenGL
 tag: [OpenGL, CG]
 toc: true
 ---

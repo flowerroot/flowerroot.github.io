@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "4view system."
-categories: Computer-Graphics
+categories: OpenGL
 tag: [OpenGL, CG]
 toc: true
 ---

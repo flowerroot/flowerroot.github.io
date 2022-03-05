@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "foward kinematics."
-categories: Computer-Graphics
+categories: OpenGL
 tag: [OpenGL, CG]
 toc: true
 ---
