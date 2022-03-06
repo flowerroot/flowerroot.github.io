@@ -8,11 +8,11 @@ main:
     url: /search/
     
 docs:
-  - title: Slidebar Test
+  - title: Sidebar Test
     children:
       - title: "Child1"
       - title: "Child2"
-      
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
