@@ -12,7 +12,7 @@ docs:
     children:
       - title: "C"
         url: /categories/#c
-      - title: "Cpp"
+      - title: "C++"
         url: /categories/#cpp
       - title: "JAVA"
         url: /categories/#java
