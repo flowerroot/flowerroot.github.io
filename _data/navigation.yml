@@ -6,16 +6,6 @@ main:
     url: /tags/
   - title: "Search"
     url: /search/
-
-docs:
-  - title: Category
-    children:
-      - title: "C++"
-        url: C++/
-        category: "C++"
-      - title: "anything"
-        url: anything/
-        category: "anything"
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
