@@ -29,3 +29,5 @@ Source of photos: https://50plus.or.kr/detail.do?id=9784213
 sidebar TESST !!
 
 #JAVA!
+
+사이드바랑 카테고리경로 수정

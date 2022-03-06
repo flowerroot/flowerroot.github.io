@@ -8,49 +8,29 @@ main:
     url: /search/
     
 docs:
-  - title: Getting Started
+  - title: Category
     children:
-      - title: "Quick-Start Guide"
+      - title: "C"
+        url: /categories/#c
+      - title: "Cpp"
+        url: /categories/#cpp
+      - title: "JAVA"
         url: /categories/#java
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+      - title: "OpenGL"
+        url: /categories/#opengl
+      - title: "OpenCV-python"
+        url: /categories/#opencv-python
+      - title: "UnrealEngine"
+        url: /categories/#unrealengine
+      - title: "HTML"
+        url: /categories/#html
+      - title: "Development-note"
+        url: /categories/#development-note
+      - title: "anything"
+        url: /categories/#anything
+      
+      
+      
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
