@@ -2,7 +2,7 @@
 layout: single
 title: "The first post."
 categories: anything
-tag: [first, jekyll, blog, cat]
+tag: [first, jekyll]
 toc: false
 ---
 
@@ -25,3 +25,5 @@ I hope you like it!
 
 Source of photos: https://50plus.or.kr/detail.do?id=9784213
 [사진출처](https://50plus.or.kr/detail.do?id=9784213){: .btn .btn--danger}
+
+sidebar test 1
