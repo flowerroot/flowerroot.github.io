@@ -7,8 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-2019년도 2학기 컴퓨터 그래픽스 수업 과제물 **4view system** 입니다.
-
+2019년도 2학기 **컴퓨터 그래픽스** 수업 과제물 **4view system** 입니다.  
 WireTeapot을 다양한 각도에서 확인하고 SolidTeapot에 조명효과를 주어 확인할 수 있습니다.
 
 ### 코드

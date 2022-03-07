@@ -7,8 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-2019년도 2학기 컴퓨터 그래픽스 수업 과제물 **foward kinematics** 입니다.
-
+2019년도 2학기 **컴퓨터 그래픽스** 수업 과제물 **foward kinematics** 입니다.  
 2개의 polygon과 2개의 joint로 구성되었으며 'q', 'w', 'a', 's' key를 사용해 조작이 가능합니다.
 
 ### 코드

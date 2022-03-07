@@ -7,8 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-2019년도 2학기 컴퓨터 그래픽스 수업 과제물 **Trackball interface** 입니다.
-
+2019년도 2학기 **컴퓨터 그래픽스** 수업 과제물 **Trackball interface** 입니다.  
 마우스를 사용해 SolidTeapot을 x축과 y축으로 회전시킬 수 있습니다.
 
 ### 코드
