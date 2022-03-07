@@ -12,7 +12,7 @@ docs:
     children:
         # C
       - title: "C"
-        url: c/
+        url: _pages/categories/c/
         category: "c"
         # C++
       - title: "C++"

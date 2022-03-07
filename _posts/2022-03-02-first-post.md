@@ -32,3 +32,5 @@ _includes 안에다가 custom-archive-single.html
 nav_list 수정
 _pages/categories/c.md 생성
 등 등 이것저것 수정함
+
++ navigation.yml 에서 경로 수정함
