@@ -10,24 +10,42 @@ main:
 docs:
   - title: Category
     children:
+        # C
       - title: "C"
-        url: /categories/#c
+        url: c/
+        category: "c"
+        # C++
       - title: "C++"
-        url: /categories/#cpp
+        url: cpp/
+        category: "cpp"
+        # JAVA
       - title: "JAVA"
-        url: /categories/#java
+        url: java/
+        category: "java"
+        # OpenGL
       - title: "OpenGL"
-        url: /categories/#opengl
+        url: opengl/
+        category: "opengl"
+        # OpenCV-python
       - title: "OpenCV-python"
-        url: /categories/#opencv-python
+        url: opencv-python/
+        category: "opencv-python"
+        # UnrealEngine
       - title: "UnrealEngine"
-        url: /categories/#unrealengine
+        url: unrealengine/
+        category: "unrealengine"
+        # HTML
       - title: "HTML"
-        url: /categories/#html
+        url: html/
+        category: "html"
+        # Development-note
       - title: "Development-note"
-        url: /categories/#development-note
+        url: development-note/
+        category: "development-note"
+        # anything
       - title: "anything"
-        url: /categories/#anything
+        url: anything/
+        category: "anything"
       
       
       
