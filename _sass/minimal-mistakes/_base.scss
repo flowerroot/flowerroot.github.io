@@ -126,6 +126,8 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none; // 밑줄없애는코드 새로추가함
+
   &:focus {
     @extend %tab-focus;
   }

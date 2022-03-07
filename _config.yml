@@ -128,8 +128,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/flowerroot/?hl=ko"
-  sidebar:
-        nav: "docs"
 
 # Site Footer
 footer:
