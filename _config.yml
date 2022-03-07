@@ -141,11 +141,11 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/flowerroot"
-   #- label: "GitLab"
-   #  icon: "fab fa-fw fa-gitlab"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
       # url:
-   #- label: "Bitbucket"
-   #  icon: "fab fa-fw fa-bitbucket"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
