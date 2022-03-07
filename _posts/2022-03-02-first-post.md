@@ -26,11 +26,4 @@ I hope you like it!
 Source of photos: https://50plus.or.kr/detail.do?id=9784213
 [사진출처](https://50plus.or.kr/detail.do?id=9784213){: .btn .btn--danger}
 
-사이드바 재도전~~
-네비게이션
-_includes 안에다가 custom-archive-single.html
-nav_list 수정
-_pages/categories/c.md 생성
-등 등 이것저것 수정함
-
-+ navigation.yml 에서 경로 수정함
++ config 수정
