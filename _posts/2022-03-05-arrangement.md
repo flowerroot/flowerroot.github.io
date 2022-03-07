@@ -4,6 +4,7 @@ title: "Arrangement and repetition."
 categories: JAVA
 tag: [JAVA]
 toc: true
+toc_sticky: true
 ---
 
 [문제] 

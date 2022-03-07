@@ -3,7 +3,8 @@ layout: single
 title: "사진과영상 기말과제"
 categories: anything
 # tag: [C, FlashMemory]
-toc: false
+toc: true
+toc_sticky: true
 ---
 
 {% include video id="pkbKP8NEo_I" provider="youtube" %}

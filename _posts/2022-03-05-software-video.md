@@ -4,6 +4,7 @@ title: "VideoRent Program"
 categories: C
 tag: [C, VideoRent]
 toc: true
+toc_sticky: true
 ---
 
 2019년도 2학기 소프트웨어공학 수업 과제물 **비디오 대여 프로그램**입니다.

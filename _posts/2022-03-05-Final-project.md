@@ -4,6 +4,7 @@ title: "Final project."
 categories: OpenGL
 tag: [OpenGL, CG]
 toc: true
+toc_sticky: true
 ---
 
 2019년도 2학기 컴퓨터 그래픽스 수업 마지막 과제물 입니다.

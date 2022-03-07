@@ -3,6 +3,8 @@ layout: single
 title: "String Calculator."
 categories: C
 tag: [C, calculator]
+toc: true
+toc_sticky: true
 ---
 
 ```c

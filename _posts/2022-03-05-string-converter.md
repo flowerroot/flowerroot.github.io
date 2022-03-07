@@ -3,7 +3,8 @@ layout: single
 title: "String Converter."
 categories: C
 tag: [C, converter]
-toc: false
+toc: true
+toc_sticky: true
 ---
 
 ```c

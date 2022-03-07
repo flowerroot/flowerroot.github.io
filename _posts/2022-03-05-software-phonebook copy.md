@@ -4,6 +4,7 @@ title: "PhoneBook Program"
 categories: C
 tag: [C, PhoneBook]
 toc: true
+toc_sticky: true
 ---
 
 2019년도 2학기 소프트웨어공학 수업에서 제출했던 과제물입니다.

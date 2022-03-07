@@ -3,6 +3,8 @@ layout: single
 title: "Single Linked List."
 categories: C
 tag: [C, linked list, SLL]
+toc: true
+toc_sticky: true
 ---
 
 ```c

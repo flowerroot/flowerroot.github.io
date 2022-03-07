@@ -4,6 +4,7 @@ title: "두근두근 도넛."
 categories: OpenGL
 tag: [OpenGL, CG]
 toc: true
+toc_sticky: true
 ---
 
 2019년도 2학기 컴퓨터 그래픽스 수업 과제물 **두근두근 도넛** 입니다.

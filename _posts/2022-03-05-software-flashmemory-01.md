@@ -4,6 +4,7 @@ title: "Flash Memory 1차"
 categories: C
 tag: [C, FlashMemory]
 toc: true
+toc_sticky: true
 ---
 
 2019년도 2학기 소프트웨어공학 수업 과제물 **flash memory 1차**입니다.

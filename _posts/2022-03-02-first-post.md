@@ -3,7 +3,8 @@ layout: single
 title: "The first post."
 categories: anything
 tag: [first, jekyll]
-toc: false
+toc: true
+toc_sticky: true
 ---
 
 **[공지사항]** [지킬블로그 신규 업데이트 안내 드립니다.](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
