@@ -296,7 +296,7 @@ End Class
 ![Form1 2022-03-16 오후 10_14_51](../../images/2022-03-16-VB-Vending-Machine/Form1 2022-03-16 오후 10_14_51.png)  
 처음 실행 화면  
 
-![Form1 2022-03-16 오후 10_14_54](../../images/ 2022-03-16-VB-Vending-Machine/Form1 2022-03-16 오후 10_14_54.png)  
+![Form1 2022-03-16 오후 10_14_54](../../images/2022-03-16-VB-Vending-Machine/Form1 2022-03-16 오후 10_14_54.png)  
 팝콘을 선택하면 팝콘 종류가 나오고  
 
 ![Form1 2022-03-16 오후 10_14_57](../../images/2022-03-16-VB-Vending-Machine/Form1 2022-03-16 오후 10_14_57.png)  
