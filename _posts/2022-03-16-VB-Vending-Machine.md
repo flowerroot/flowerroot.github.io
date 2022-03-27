@@ -291,6 +291,8 @@ End Class
 
 ```
 
+![팝콘가격](../../images/2022-03-16-VB-Vending-Machine/팝콘가격.PNG)
+
 ## 실행화면  
 
 ![Form1 2022-03-16 오후 10_14_51](../../images/2022-03-16-VB-Vending-Machine/Form1 2022-03-16 오후 10_14_51.png)  
