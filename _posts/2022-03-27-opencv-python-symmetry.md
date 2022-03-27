@@ -1,0 +1,30 @@
+---
+layout: single
+title: "OpenCV-python symmetry."
+categories: OpenCV-python
+tag: [OpenCV, python]
+toc: true
+toc_sticky: true
+---
+### 소스코드  
+```python
+import cv2
+
+src = cv2.imread("Image/gomduri.png", cv2.IMREAD_COLOR)
+# cv2.flip 함수를 통해 이미지를 대칭하고 dst에 저장
+# 0은 x축 1이상은 y축
+dst = cv2.flip(src, 0)
+
+# windows 창의 제목은 중복되지 않게 작성.
+cv2.imshow("src", src)
+cv2.imshow("dst", dst)
+
+# 키 입력 대기 함수로 키가 입력될 때 까지 windows 창이 유지되도록 구성.
+cv2.waitKey()
+cv2.destroyAllWindows()
+```
+### 실행결과
+
+![image-20220327175248454](../../images/2022-03-27-opencv-python-symmetry/image-20220327175248454.png)
+
+![image-20220327175257433](../../images/2022-03-27-opencv-python-symmetry/image-20220327175257433.png)
