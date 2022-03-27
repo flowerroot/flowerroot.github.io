@@ -38,3 +38,5 @@ docs:
         url: /categories/#anything
       - title: "Visual-Basic"
         url: /categories/#visual-basic
+      - title: "OpenCV-C++"
+        url: /categories/#opencv-cpp
