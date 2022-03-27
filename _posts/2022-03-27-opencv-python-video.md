@@ -1,0 +1,29 @@
+---
+layout: single
+title: "OpenCV-python show video."
+categories: OpenCV-python
+tag: [OpenCV, python]
+toc: true
+toc_sticky: true
+---
+### 소스코드  
+```python
+import cv2
+
+# VideoCapture함수에서 경로를 지정하면 비디오 정보를 가져올 수 있다.
+# 숫자를 입력하면 해당 순서의 카메라를 인식한다.
+# ex)0을 입력하면 0번째 카메라로부터 정보를 가져온다.
+capture = cv2.VideoCapture("Image/video.mp4")
+
+while cv2.waitKey(33) < 0:
+    # 동영상의 현재 프레임 수 == 동영상의 총 프레임 수가 같을 때
+    if capture.get(cv2.CAP_PROP_POS_FRAMES) == capture.get(cv2.CAP_PROP_FRAME_COUNT):
+        # 동영상의 현재 프레임을 초기화
+        capture.set(cv2.CAP_PROP_POS_FRAMES, 0)
+
+    ret, frame = capture.read()
+    cv2.imshow("VideoFrame", frame)
+
+capture.release()
+cv2.destroyAllWindows()
+```

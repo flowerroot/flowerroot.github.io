@@ -1,0 +1,34 @@
+---
+layout: single
+title: "OpenCV-python show image."
+categories: OpenCV-python
+tag: [OpenCV, python]
+toc: true
+toc_sticky: true
+---
+### 소스코드  
+```python
+import cv2
+
+# 로컬경로, 상대경로 모두 가능
+image = cv2.imread("Image/lunar.jpg", cv2.IMREAD_ANYCOLOR)
+'''
+flags는 ANYCOLOR 이 외에도
+UNCHANGED : 원본사용
+GRAYSCALE : 1채널, 그레이스케일 적용
+COLOR : 3채널 BGR 이미지 사용
+ANYDEPTH : 이미지에 따라 정밀도를 16/32비트 또는 8비트로 사용
+REDUCED_GRATSCALE_2 : 1채널, 1/2크기, 그레이스케일 적용
+REDUCED_GRATSCALE_4 : 1채널, 1/4크기, 그레이스케일 적용
+REDUCED_GRATSCALE_8 : 1채널, 1/8크기, 그레이스케일 적용
+REDUCED_COLOR_2 : 3채널, 1/2크기, BGR 이미지 사용
+REDUCED_COLOR_4 : 3채널, 1/4크기, BGR 이미지 사용
+REDUCED_COLOR_8 : 3채널, 1/8크기, BGR 이미지 사용
+'''
+cv2.imshow("moon", image)
+# K 대문자로 써야함 소문자로 쓰면 실행 안 됨 ㅡㅡ
+cv2.waitKey(0)
+cv2.destroyAllWindwos()
+```
+### 실행결과  
+![image-20220327172319974](../../images/2022-03-27-opencv-python-image/image-20220327172319974.png)
