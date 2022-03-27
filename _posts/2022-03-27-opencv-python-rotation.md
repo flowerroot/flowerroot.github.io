@@ -1,0 +1,36 @@
+---
+layout: single
+title: "Rotation."
+categories: OpenCV-python
+tag: [OpenCV, python]
+toc: true
+toc_sticky: true
+---
+### 소스코드  
+```python
+import cv2
+
+src = cv2.imread("Image/ara.jpg", cv2.IMREAD_COLOR)
+
+# .shape를 이용해 높이, 너비, 채널의 값을 각각 저장
+height, width, channel = src.shape
+
+# (x, y)값 (너비의 절반, 높이의절반)값을 대입해 중심점 지정
+# 회전각도는 90도
+# 확대 및 축소 비율은 1
+matrix = cv2.getRotationMatrix2D((width/2, height/2), 90, 1)
+
+# src 에 matrix를 적용, width와 height로 변형해서 dst에 반환
+# 원본이미지에 아핀 맵 행렬을 적용, 출력이미지 크기로 변형해서 출력이미지를 반환
+dst = cv2.warpAffine(src, matrix, (width, height))
+
+cv2.imshow("src", src)
+cv2.imshow("dst", dst)
+cv2.waitKey()
+cv2.destroyAllWindows()
+```
+### 실행결과
+
+![image-20220327180206060](../../images/2022-03-27-opencv-python-rotation/image-20220327180206060.png)
+
+![image-20220327180214940](../../images/2022-03-27-opencv-python-rotation/image-20220327180214940.png)
