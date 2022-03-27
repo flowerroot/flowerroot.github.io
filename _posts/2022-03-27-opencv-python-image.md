@@ -31,4 +31,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindwos()
 ```
 ### 실행결과  
-![image-20220327172319974](../../images/2022-03-27-opencv-python-image/image-20220327172319974.png)
+![image-20220327172616268](../../images/2022-03-27-opencv-python-image/image-20220327172616268.png)
