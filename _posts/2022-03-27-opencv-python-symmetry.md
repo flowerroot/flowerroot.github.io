@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "OpenCV-python symmetry."
+title: "symmetry."
 categories: OpenCV-python
 tag: [OpenCV, python]
 toc: true

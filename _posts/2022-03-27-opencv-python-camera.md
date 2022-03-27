@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "OpenCV-python Camera."
+title: "Camera."
 categories: OpenCV-python
 tag: [OpenCV, python]
 toc: true

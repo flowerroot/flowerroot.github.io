@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "OpenCV-python show video."
+title: "show video."
 categories: OpenCV-python
 tag: [OpenCV, python]
 toc: true
