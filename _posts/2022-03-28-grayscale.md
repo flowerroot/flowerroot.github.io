@@ -81,16 +81,16 @@ int main(int ac, char** av) {
 ```
 ### 실행결과
 
-![image-20220328214321504](../../images/2022-03-28-grayscale/image-20220328214321504.png)
+![image-20220328214321504](../../images/2022-03-28-grayscale/image-20220328214321504.png)  
 **source**
 
-![image-20220328214334268](../../images/2022-03-28-grayscale/image-20220328214334268.png)
+![image-20220328214334268](../../images/2022-03-28-grayscale/image-20220328214334268.png)  
 **imread_gray**
 
-![image-20220328214346620](../../images/2022-03-28-grayscale/image-20220328214346620.png)
+![image-20220328214346620](../../images/2022-03-28-grayscale/image-20220328214346620.png)  
 **cvt_gray**
 
-![image-20220328214404399](../../images/2022-03-28-grayscale/image-20220328214404399.png)
+![image-20220328214404399](../../images/2022-03-28-grayscale/image-20220328214404399.png)  
 **self_gray**
 
 각 각 적용된 **grayscale** image는 육안으로 확인할 때 차이점을 못 느낄수도 있다.  
