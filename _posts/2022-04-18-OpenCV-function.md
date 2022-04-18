@@ -12,34 +12,27 @@ Mat imread(const String& filename, int flags = IMREAD_COLOR);
 ```
 - filename : 불러올 영상 파일 이름  
 - flags : 영상 파일 불러오기 옵션 플래그. ImreadModes 열거형 상수를 지정합니다.  
-- 반환값 : 불러온 영상 데이터(Mat 객체)
-
+- 반환값 : 불러온 영상 데이터(Mat 객체)  
 ```c++
 IMREAD_UNCHANGED
-```
-입력 파일에 지정된 그대로의 컬러 속성을 사용합니다.  
-투명한 PNG 또는 TIFF 파일의 경우, 알파 채널까지 이용하여 4채널 영상으로 불러옵니다.  
-```c++
-IMREAD_GRAYSCALE
-```
-1채널 그레이스케일 영상으로 변환하여 불러옵니다.  
-```c++
-IMREAD_COLOR
-```
-3채널 BGR 컬러 영상으로 변환하여 불러옵니다.  
-```c++
-IMREAD_REDUCED_GRAYSCALE_2
-```
-크기를 1/2로 줄인 1채널 그레이스케일 영상으로 변환합니다.  
-```c++
-IMREAD_REDUCED_COLOR_2
-```
-크기를 1/2로 줄인 3채널 BGR 영상으로 변환합니다.  
-```c++
-IMREAD_IGNORE_ORIENTATION
-```
-EXIF에 저장된 방향 정보를 사용하지 않습니다.  
+// 입력 파일에 지정된 그대로의 컬러 속성을 사용합니다.  
+// 투명한 PNG 또는 TIFF 파일의 경우, 알파 채널까지 이용하여 4채널 영상으로 불러옵니다.  
 
+IMREAD_GRAYSCALE
+// 1채널 그레이스케일 영상으로 변환하여 불러옵니다.  
+
+IMREAD_COLOR
+// 3채널 BGR 컬러 영상으로 변환하여 불러옵니다.  
+
+IMREAD_REDUCED_GRAYSCALE_2
+// 크기를 1/2로 줄인 1채널 그레이스케일 영상으로 변환합니다.  
+
+IMREAD_REDUCED_COLOR_2
+// 크기를 1/2로 줄인 3채널 BGR 영상으로 변환합니다.  
+
+IMREAD_IGNORE_ORIENTATION
+// EXIF에 저장된 방향 정보를 사용하지 않습니다.  
+```
 ### imwrite()  
 ```c++
 bool imwrite(const String& filename, InputArray img, const std::vector<int>& params = std::vector<int>());
@@ -64,19 +57,16 @@ void namedWindow(const String& winname, int flags = WINDOW_AUTOSIZE);
 - flags : 생성되는 창의 속성을 지정하는 플래그. WindowFlags 열거형 상수를 지정합니다.  
 ```c++
 WINDOW_NORMAL
-```
-영상 출력 창의 크기에 맞게 영상 크기가 변경되어 출력됩니다.  
-사용자가 자유롭게 창 크기를 변경할 수 있습니다.  
-```c++
-WINDOW_AUTOSIZE
-```
-출력하는 영상 크기에 맞게 창 크기가 자동으로 변경됩니다.  
-사용자가 임의로 창 크기를 변경할 수 없습니다.  
-```c++
-WINDOW_OPENGL
-```
-OpenGL을 지원합니다.  
+// 영상 출력 창의 크기에 맞게 영상 크기가 변경되어 출력됩니다.  
+// 사용자가 자유롭게 창 크기를 변경할 수 있습니다.  
 
+WINDOW_AUTOSIZE
+// 출력하는 영상 크기에 맞게 창 크기가 자동으로 변경됩니다.  
+// 사용자가 임의로 창 크기를 변경할 수 없습니다.  
+
+WINDOW_OPENGL
+// OpenGL을 지원합니다.  
+```
 ### destroyWindow()  
 ```c++
 void destroyWindow(const String& winname);
