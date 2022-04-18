@@ -13,6 +13,7 @@ Mat imread(const String& filename, int flags = IMREAD_COLOR);
 - filename : 불러올 영상 파일 이름  
 - flags : 영상 파일 불러오기 옵션 플래그. ImreadModes 열거형 상수를 지정합니다.  
 - 반환값 : 불러온 영상 데이터(Mat 객체)  
+
 ```c++
 IMREAD_UNCHANGED
 // 입력 파일에 지정된 그대로의 컬러 속성을 사용합니다.  
@@ -55,6 +56,7 @@ void namedWindow(const String& winname, int flags = WINDOW_AUTOSIZE);
 ```
 - winname : 영상 출력 창 상단에 출력되는 창 고유 이름. 이 문자열로 창을 구분합니다.  
 - flags : 생성되는 창의 속성을 지정하는 플래그. WindowFlags 열거형 상수를 지정합니다.  
+
 ```c++
 WINDOW_NORMAL
 // 영상 출력 창의 크기에 맞게 영상 크기가 변경되어 출력됩니다.  
