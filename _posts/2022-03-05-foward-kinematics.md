@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "foward kinematics."
+title: "[C OpenGL] foward kinematics."
 categories: OpenGL
 tag: [OpenGL, CG]
 toc: true

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Flash Memory 2차"
+title: "[C] Flash Memory 2차"
 categories: C
 tag: [C, FlashMemory]
 toc: true

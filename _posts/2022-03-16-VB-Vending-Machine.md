@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Vending Machine."
+title: "[Visual Basic] Vending Machine."
 categories: Visual-Basic
 tag: [Visual-Basic]
 toc: true

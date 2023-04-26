@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Arrangement and repetition."
+title: "[JAVA] Arrangement and repetition."
 categories: JAVA
 tag: [JAVA]
 toc: true

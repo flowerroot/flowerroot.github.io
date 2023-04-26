@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Binaryization."
+title: "[Python OpenCV] Binaryization."
 categories: OpenCV-python
 tag: [OpenCV, python]
 toc: true

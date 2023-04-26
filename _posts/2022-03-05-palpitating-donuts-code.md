@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "두근두근 도넛."
+title: "[C OpenGL] 두근두근 도넛."
 categories: OpenGL
 tag: [OpenGL, CG]
 toc: true

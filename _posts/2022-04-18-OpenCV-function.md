@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "OpenCV 주요함수."
+title: "[C++ OpenCV] OpenCV 주요함수."
 categories: OpenCV-C++
 tag: [OpenCV, Cpp]
 toc: true

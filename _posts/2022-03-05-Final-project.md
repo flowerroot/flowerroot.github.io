@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Final project."
+title: "[C OpenGL] Final project."
 categories: OpenGL
 tag: [OpenGL, CG]
 toc: true

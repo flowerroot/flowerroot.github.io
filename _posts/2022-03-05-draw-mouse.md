@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Draw with a Mouse."
+title: "[JAVA] Draw with a Mouse."
 categories: JAVA
 tag: [JAVA]
 toc: true

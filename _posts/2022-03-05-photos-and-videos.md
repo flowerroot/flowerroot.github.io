@@ -2,7 +2,7 @@
 layout: single
 title: "사진과영상 기말과제"
 categories: anything
-# tag: [C, FlashMemory]
+# tag: []
 toc: true
 toc_sticky: true
 ---

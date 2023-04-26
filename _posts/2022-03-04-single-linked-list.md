@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Single Linked List."
+title: "[C] Single Linked List."
 categories: C
 tag: [C, linked list, SLL]
 toc: true

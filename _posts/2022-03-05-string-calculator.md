@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "String Calculator."
+title: "[C] String Calculator."
 categories: C
 tag: [C, calculator]
 toc: true

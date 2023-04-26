@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "PhoneBook Program"
+title: "[C] PhoneBook Program"
 categories: C
 tag: [C, PhoneBook]
 toc: true

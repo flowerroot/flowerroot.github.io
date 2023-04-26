@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "color-space transformation."
+title: "[Python OpenCV] color-space transformation."
 categories: OpenCV-python
 tag: [OpenCV, python]
 toc: true

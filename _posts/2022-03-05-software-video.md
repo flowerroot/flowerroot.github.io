@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "VideoRent Program"
+title: "[C] VideoRent Program"
 categories: C
 tag: [C, VideoRent]
 toc: true

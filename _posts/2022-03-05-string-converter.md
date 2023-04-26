@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "String Converter."
+title: "[C] String Converter."
 categories: C
 tag: [C, converter]
 toc: true

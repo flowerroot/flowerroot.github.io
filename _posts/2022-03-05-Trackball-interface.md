@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Trackball interface."
+title: "[C OpenGL] Trackball interface."
 categories: OpenGL
 tag: [OpenGL, CG]
 toc: true
