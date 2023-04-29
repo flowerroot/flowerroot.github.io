@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[C++ OpenCV] 이미지 자동 생성기."
-categories: OpenCV-C++
+categories: Cpp_OpenCV
 tag: [OpenCV, Cpp]
 toc: true
 toc_sticky: true

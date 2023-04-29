@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[C++ OpenCV] Gray Scale에 대한 고찰"
-categories: OpenCV-C++
+categories: Cpp_OpenCV
 tag: [OpenCV, Cpp]
 toc: true
 toc_sticky: true

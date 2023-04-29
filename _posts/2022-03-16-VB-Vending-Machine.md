@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "[Visual Basic] Vending Machine."
-categories: Visual-Basic
-tag: [Visual-Basic]
+categories: Visual_Basic
+tag: [Visual_Basic]
 toc: true
 toc_sticky: true
 ---
