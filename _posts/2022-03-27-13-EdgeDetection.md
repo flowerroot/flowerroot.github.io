@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Python OpenCV] Edge Detection."
-categories: OpenCV-python
+categories: [OpenCV]Python
 tag: [OpenCV, python]
 toc: true
 toc_sticky: true
