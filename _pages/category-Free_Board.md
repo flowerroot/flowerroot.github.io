@@ -1,9 +1,9 @@
 ---
-title: "개발노트"
+title: "Free_Board"
 layout: archive
-permalink: /개발노트
+permalink: /Free_Board
 ---
 
 
-{% assign posts = site.categories.개발노트 %}
+{% assign posts = site.categories.Free_Board %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "사진과영상 기말과제"
-categories: 자유게시판
+categories: Free_Board
 tag: []
 toc: true
 toc_sticky: true

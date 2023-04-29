@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "The first post."
-categories: 자유게시판
+categories: Free_Board
 tag: []
 toc: true
 toc_sticky: true

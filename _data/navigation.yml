@@ -62,13 +62,13 @@ sidebar-category:
         url:  "/JAVA"
       - title: "Visual_Basic"
         url:  "/Visual_Basic"
-        
+
   - title: "안 프로그래밍"
     children:
-      - title: "개발노트"
-        url: "/개발노트"
-      - title: "자유게시판"
-        url: "/자유게시판"
+      - title: "Development_Note"
+        url: "/Development_Note"
+      - title: "Free_Board"
+        url: "/Free_Board"
       - title: "UnrealEngine"
         url: "/UnrealEngine"
       - title: "HTML"

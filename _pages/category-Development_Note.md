@@ -1,9 +1,9 @@
 ---
-title: "자유게시판"
+title: "Development_Note"
 layout: archive
-permalink: /자유게시판
+permalink: /Development_Note
 ---
 
 
-{% assign posts = site.categories.자유게시판 %}
+{% assign posts = site.categories.Development_Note %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
