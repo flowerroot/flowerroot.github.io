@@ -40,3 +40,5 @@ docs:
         url: /categories/#visual-basic
       - title: "OpenCV-C++"
         url: /categories/#opencv-cpp
+      - title: "MFC"
+        url: /categories/#MFC
