@@ -293,6 +293,6 @@ defaults:
       show_date: truesda
       sidebar:                  # 추가한 부분
         nav: "docs"             # 추가한 부분
-        nav: "sidebar-category" # 추가한 부분
+        nav: "sidebar-category" # 추가한 부분 !
 
 date_format: "%Y-%m-%d"
