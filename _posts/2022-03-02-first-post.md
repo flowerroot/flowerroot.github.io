@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "The first post."
-categories: anything
-tag: [first, jekyll]
+categories: 자유게시판
+tag: []
 toc: true
 toc_sticky: true
 ---

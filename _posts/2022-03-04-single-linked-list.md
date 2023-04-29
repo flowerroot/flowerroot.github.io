@@ -2,7 +2,7 @@
 layout: single
 title: "[C] Single Linked List."
 categories: C
-tag: [C, linked list, SLL]
+tag: [C]
 toc: true
 toc_sticky: true
 ---

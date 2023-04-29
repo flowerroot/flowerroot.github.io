@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "[C OpenGL] 4view system."
-categories: OpenGL
-tag: [OpenGL, CG]
+categories: C_OpenGL
+tag: [OpenGL, C]
 toc: true
 toc_sticky: true
 ---
