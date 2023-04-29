@@ -15,36 +15,36 @@ main:
  #- title: "Sitemap"
  #  url: /sitemap/
     
-docs:
-  - title: Category
-    children:        
-      - title: "C"
-        url: /categories/#c
-      - title: "C++"
-        url: /categories/#cpp
-      - title: "JAVA"
-        url: /categories/#java        
-      - title: "OpenGL"
-        url: /categories/#opengl        
-      - title: "OpenCV-python"
-        url: /categories/#opencv-python        
-      - title: "UnrealEngine"
-        url: /categories/#unrealengine        
-      - title: "HTML"
-        url: /categories/#html        
-      - title: "Development-note"
-        url: /categories/#development-note        
-      - title: "anything"
-        url: /categories/#anything
-      - title: "Visual-Basic"
-        url: /categories/#visual-basic
-      - title: "OpenCV-C++"
-        url: /categories/#opencv-cpp
-      - title: "MFC"
-        url: /categories/#MFC
+# docs:
+#   - title: Category
+#     children:        
+#       - title: "C"
+#         url: /categories/#c
+#       - title: "C++"
+#         url: /categories/#cpp
+#       - title: "JAVA"
+#         url: /categories/#java        
+#       - title: "OpenGL"
+#         url: /categories/#opengl        
+#       - title: "OpenCV-python"
+#         url: /categories/#opencv-python        
+#       - title: "UnrealEngine"
+#         url: /categories/#unrealengine        
+#       - title: "HTML"
+#         url: /categories/#html        
+#       - title: "Development-note"
+#         url: /categories/#development-note        
+#       - title: "anything"
+#         url: /categories/#anything
+#       - title: "Visual-Basic"
+#         url: /categories/#visual-basic
+#       - title: "OpenCV-C++"
+#         url: /categories/#opencv-cpp
+#       - title: "MFC"
+#         url: /categories/#MFC
 
 sidebar-category:
-  - title: "카테고리"
+  - title: "프로그래밍"
     children:
       - title: "C"
         url: "/C"
