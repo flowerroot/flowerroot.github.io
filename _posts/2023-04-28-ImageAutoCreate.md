@@ -6,7 +6,7 @@ tag: [OpenCV, Cpp]
 toc: true
 toc_sticky: true
 ---
-## [C++] OpenCV를 활용한 이미지 자동 생성기
+## 이미지 자동 생성기
 
 디스플레이의 결함을 머신비전으로 검사하기 위해선  
 일정한 패턴의 점등이 필요하다.  

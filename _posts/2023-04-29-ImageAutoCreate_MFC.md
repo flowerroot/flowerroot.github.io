@@ -1,13 +1,12 @@
 ---
 layout: single
-title: "[C++] 이미지 자동 생성기 MFC버전!."
+title: "[MFC] 이미지 자동 생성기 MFC버전!."
 categories: MFC
 tag: [OpenCV, Cpp, MFC]
 toc: true
 toc_sticky: true
 ---
-## [C++] OpenCV를 활용한 이미지 자동 생성기
-## MFC에 적용해보기!
+## 이미지 자동 생성기 MFC에 적용해보기!
 
 바로 직전에 올린 게시물은 C++ OpenCV를 활영하여  
 이미지를 자동으로 생성하고 저장하는 프로그램의 소개였다.  
