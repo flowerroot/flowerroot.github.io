@@ -2,7 +2,7 @@
 layout: single
 title: "[C] String Calculator."
 categories: C
-tag: [C, calculator]
+tag: [C]
 toc: true
 toc_sticky: true
 ---

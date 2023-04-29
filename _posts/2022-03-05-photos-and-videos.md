@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "사진과영상 기말과제"
-categories: anything
-# tag: []
+categories: 자유게시판
+tag: []
 toc: true
 toc_sticky: true
 ---

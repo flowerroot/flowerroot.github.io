@@ -2,7 +2,7 @@
 layout: single
 title: "[Unreal Engine] Time Attack Racer."
 categories: UnrealEngine
-tag: [UnrealEngine, BluePrint, Game]
+tag: [UnrealEngine]
 toc: true
 toc_sticky: true
 ---

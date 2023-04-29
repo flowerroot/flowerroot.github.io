@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "[C OpenGL] Driving simulation."
-categories: OpenGL
-tag: [OpenGL, CG]
+categories: C_OpenGL
+tag: [OpenGL, C]
 toc: true
 toc_sticky: true
 ---

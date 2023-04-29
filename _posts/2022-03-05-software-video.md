@@ -2,7 +2,7 @@
 layout: single
 title: "[C] VideoRent Program"
 categories: C
-tag: [C, VideoRent]
+tag: [C]
 toc: true
 toc_sticky: true
 ---

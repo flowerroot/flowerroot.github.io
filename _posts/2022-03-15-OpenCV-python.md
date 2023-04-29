@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "[Python OpenCV] OpenCV-python을 활용한 객체추적 프로그램."
-categories: OpenCV-python
-tag: [OpenCV, python]
+categories: Python_OpenCV
+tag: [OpenCV, Python]
 toc: true
 toc_sticky: true
 ---

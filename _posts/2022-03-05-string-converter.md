@@ -2,7 +2,7 @@
 layout: single
 title: "[C] String Converter."
 categories: C
-tag: [C, converter]
+tag: [C]
 toc: true
 toc_sticky: true
 ---

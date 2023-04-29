@@ -2,7 +2,7 @@
 layout: single
 title: "[C] Flash Memory 1차"
 categories: C
-tag: [C, FlashMemory]
+tag: [C]
 toc: true
 toc_sticky: true
 ---
