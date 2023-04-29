@@ -42,3 +42,13 @@ docs:
         url: /categories/#opencv-cpp
       - title: "MFC"
         url: /categories/#MFC
+
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "C"
+        url: "/C"
+      - title: "C++"
+        url:  "/Cpp"
+      - title: "JAVA"
+        url:  "/JAVA"
