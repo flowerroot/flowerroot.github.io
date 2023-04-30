@@ -28,6 +28,166 @@ Dlg.cpp 파일에만 주요함수 정의와 시퀀스 및 알고리즘이 들어
 
 소스코드는 다음과 같다.  
 
+### 프로젝트.h
+```c++
+// MFC_OpenCV.h: PROJECT_NAME 애플리케이션에 대한 주 헤더 파일입니다.
+//
+
+#pragma once
+
+#ifndef __AFXWIN_H__
+	#error "PCH에 대해 이 파일을 포함하기 전에 'pch.h'를 포함합니다."
+#endif
+
+#include "resource.h"		// 주 기호입니다.
+
+
+// CMFCOpenCVApp:
+// 이 클래스의 구현에 대해서는 MFC_OpenCV.cpp을(를) 참조하세요.
+//
+
+class CMFCOpenCVApp : public CWinApp
+{
+public:
+	CMFCOpenCVApp();
+
+// 재정의입니다.
+public:
+	virtual BOOL InitInstance();
+
+// 구현입니다.
+
+	DECLARE_MESSAGE_MAP()
+};
+
+extern CMFCOpenCVApp theApp;
+```
+
+### 프로젝트.cpp  
+```c++
+// MFC_OpenCV.cpp: 애플리케이션에 대한 클래스 동작을 정의합니다.
+//
+
+#include "pch.h"
+#include "framework.h"
+#include "MFC_OpenCV.h"
+#include "MFC_OpenCVDlg.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#endif
+
+// CMFCOpenCVApp
+BEGIN_MESSAGE_MAP(CMFCOpenCVApp, CWinApp)
+	ON_COMMAND(ID_HELP, &CWinApp::OnHelp)
+END_MESSAGE_MAP()
+
+// CMFCOpenCVApp 생성
+CMFCOpenCVApp::CMFCOpenCVApp() {
+	// TODO: 여기에 생성 코드를 추가합니다.
+	// InitInstance에 모든 중요한 초기화 작업을 배치합니다.
+}
+
+// 유일한 CMFCOpenCVApp 개체입니다.
+CMFCOpenCVApp theApp;
+
+// CMFCOpenCVApp 초기화
+BOOL CMFCOpenCVApp::InitInstance() {
+	CWinApp::InitInstance();
+
+	CMFCOpenCVDlg dlg;
+	m_pMainWnd = &dlg;
+	dlg.DoModal();
+
+	return FALSE;
+}
+```
+
+### 프로젝트Dlg.h
+```c++
+// MFC_OpenCVDlg.h: 헤더 파일
+//
+
+#pragma once
+
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+#include <direct.h>
+
+using namespace cv;
+
+// CMFCOpenCVDlg 대화 상자
+class CMFCOpenCVDlg : public CDialogEx
+{
+// 생성입니다.
+public:
+	CMFCOpenCVDlg(CWnd* pParent = nullptr);	// 표준 생성자입니다.
+private:
+	Mat RED, // Canvas 선언
+		GREEN,
+		BLUE,
+		BLACK,
+		G32,
+		G64,
+		G127,
+		WHITE,
+		Color_WHITE_red,
+		Color_WHITE_green,
+		Color_WHITE_blue;
+
+	bool AutoRun = false; // AutoRun 유무.. 
+	int Cycle = 0; // AutoRun 사용 시 Position 자동선택에 관여.
+	int Defect_Type = 0; // Defect Type ComboBox 에서 선택된 Item을 구분하는데 사용.
+	int Position = 0; // Image 저장 시 몇 번째 Position을 사용했는지 확인하는 용도. ex)01_PD_G127.bmp
+
+public: // 사용자 함수 선언
+	void Canvas_Clear(Mat RED, Mat GREEN, Mat BLUE, Mat BLACK, Mat G32, Mat G64, Mat G127, Mat WHITE, Mat Color_WHITE_red, Mat Color_WHITE_green, Mat Color_WHITE_blue);
+	void Point_Stain_Defect_Position_Select(int* PosX, int* Dark_PosY, int* Bright_PosY, int* Interval, int* Position, bool* AutoRun, int* Cycle);
+	void Line_Defect_Position_Select(int* Dark_PosX, int* Bright_PosX, int* Interval, int* Position, bool* AutoRun, int* Cycle);
+	void Draw_Point(Mat RED, Mat GREEN, Mat BLUE, Mat BLACK, Mat G32, Mat G64, Mat G127, Mat WHITE, int* Defect_Type, int* Position, bool* AutoRun, int* Cycle);
+	void Draw_Line(Mat RED, Mat GREEN, Mat BLUE, Mat BLACK, Mat G32, Mat G64, Mat G127, Mat WHITE, int* Defect_Type, int* Position, bool* AutoRun, int* Cycle);
+	void Draw_Stain(Mat RED, Mat GREEN, Mat BLUE, Mat BLACK, Mat G32, Mat G64, Mat G127, Mat WHITE, int* Defect_Type, int* Position, bool* AutoRun, int* Cycle);
+	void Draw_Stain_Color(Mat Color_WHITE_red, Mat Color_WHITE_green, Mat Color_WHITE_blue, int* Defect_Type, int* Position, bool* AutoRun, int* Cycle);
+	void Show_Image(Mat RED, Mat GREEN, Mat BLUE, Mat BLACK, Mat G32, Mat G64, Mat G127, Mat WHITE);
+	void Mono_Save_Image(Mat RED, Mat GREEN, Mat BLUE, Mat BLACK, Mat G32, Mat G64, Mat G127, Mat WHITE, int* Defect_Type, int* Position);
+	void Color_Save_Image(Mat Color_WHITE_red, Mat Color_WHITE_green, Mat Color_WHITE_blue, int* Defect_Type, int* Position);
+// 대화 상자 데이터입니다.
+#ifdef AFX_DESIGN_TIME
+	enum { IDD = IDD_MFC_OPENCV_DIALOG };
+#endif
+
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV 지원입니다.
+
+// 구현입니다.
+protected:
+	HICON m_hIcon;
+
+	// 생성된 메시지 맵 함수
+	virtual BOOL OnInitDialog();
+	afx_msg void OnPaint();
+	afx_msg HCURSOR OnQueryDragIcon();
+	DECLARE_MESSAGE_MAP()
+public:
+	CComboBox m_Combo_DefectType;
+	CComboBox m_Combo_DefectPosition;
+	afx_msg void OnBnClickedButtonCreate();
+	afx_msg void OnBnClickedButtonPreview();
+	CComboBox m_Combo_Pattern;
+	afx_msg void OnBnClickedButtonMonosave();
+	afx_msg void OnBnClickedButtonColorsave();
+	//afx_msg void OnBnClickedButtonAutocreate();
+	afx_msg void OnBnClickedExit();
+	afx_msg void OnBnClickedButtonCanvasclear();
+	CProgressCtrl m_progressBar;
+	afx_msg void OnBnClickedButtonAutorun();
+	CEdit m_Edit_SavePath;
+};
+
+```
+
+### 프로젝트Dlg.cpp  
 ```c++
 /*
 제   목 : 어느 세월에 그림판으로 다 그리고 앉아있어~!~!
