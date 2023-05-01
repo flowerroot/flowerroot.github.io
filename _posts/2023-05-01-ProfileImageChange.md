@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Github.io 프로필 사진 및 모양 변경하기!"
-categories: Developmonet_note
+title: "[minimal-mistakes] 프로필 사진 및 모양 변경하기."
+categories: Development_Note
 tag: []
 toc: true
 toc_sticky: true
