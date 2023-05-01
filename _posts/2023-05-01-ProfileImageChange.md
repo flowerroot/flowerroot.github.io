@@ -83,4 +83,6 @@ Author profile and links`을 검색하면 쉽게 이 부분을 찾을 수 있다
 - border-radius가 낮아질수록 사각형에 가까워진다. 50%면 완전한 원형이 된다.  
 - breakpoint의 padding, border를 바꿔주면 프로필 사진 주변의 테두리를 바꿀 수 있다.  
 
+
+
 출처 : https://danggai.github.io/github.io/Github.io-%ED%94%84%EB%A1%9C%ED%95%84-%EC%82%AC%EC%A7%84-%EB%B0%8F-%EB%AA%A8%EC%96%91-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0!/ (2023.05.01)
