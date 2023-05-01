@@ -48,28 +48,50 @@ sidebar-category:
     children:
       - title: "C"
         url: "/C"
+        category: "C"
+
       - title: "C_OpenGL"
         url: "/C_OpenGL"
+        category: "C_OpenGL"
+
       - title: "Cpp"
         url:  "/Cpp"
+        category: "Cpp"
+
       - title: "Cpp_OpenCV"
         url:  "/Cpp_OpenCV"
+        category: "Cpp_OpenCV"
+
       - title: "MFC"
         url:  "/MFC"
+        category: "MFC"
+
       - title: "Python_OpenCV"
         url:  "/Python_OpenCV"
+        category: "Python_OpenCV"
+
       - title: "JAVA"
         url:  "/JAVA"
+        category: "JAVA"
+
       - title: "Visual_Basic"
         url:  "/Visual_Basic"
+        category: "Visual_Basic"
 
   - title: "안 프로그래밍"
     children:
       - title: "Development_Note"
         url: "/Development_Note"
+        category: "Development_Note"
+
       - title: "Free_Board"
         url: "/Free_Board"
+        category: "Free_Board"
+
       - title: "UnrealEngine"
         url: "/UnrealEngine"
+        category: "UnrealEngine"
+
       - title: "HTML"
         url: "/HTML"
+        category: "HTML"
