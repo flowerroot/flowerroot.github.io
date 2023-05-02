@@ -293,5 +293,5 @@ MyClass(const MyClass& mc) {
 그 다음에는 할당된 메모리의 주소를 sre에 저장합니다.  
 이렇게 깊은 복사를 통해 오류없이 생성자와 소멸자가 실행될 수 있도록 할 수 있습니다.
 
-출처 : https://blog.hexabrain.net/168 (2023.05.02)  
-[출처](https://blog.hexabrain.net/168){: .btn .btn--danger}
+참고 : https://blog.hexabrain.net/168 (2023.05.02)  
+[참고](https://blog.hexabrain.net/168){: .btn .btn--danger}
