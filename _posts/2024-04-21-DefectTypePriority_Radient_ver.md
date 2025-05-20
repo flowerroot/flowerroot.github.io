@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[C++] Defect Type Priority."
+title: "[C++] Defect Type Priority Radiant ver."
 categories: Cpp
 tag: [Cpp]
 toc: true
