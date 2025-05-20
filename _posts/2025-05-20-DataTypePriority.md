@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[C++] DataTypePriority."
+title: "[C++] Defect Type Priority."
 categories: Cpp
 tag: [Cpp]
 toc: true
