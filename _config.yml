@@ -99,13 +99,13 @@ author:
   location: "Dongtan, South Korea"
   email: "yeongjin2573@gmail.com"
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/flowerroot"
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/flowerroot"
+      
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/flowerroot"
 
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
