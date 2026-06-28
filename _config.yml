@@ -1,14 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -20,10 +9,10 @@ title                    : "flowerroot"
 title_separator          : "|"
 subtitle                 : "SINCE 2022"
 name                     : "KIM YEONGJIN"
-description              : "영진의 블로그 입니다."
+description              : "C++ Machine Vision, MFC, OpenCV, Open eVision Development Blog"
 url                      : "https://flowerroot.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/flowerroot/flowerroot.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "flowerroot/flowerroot.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/pexels-lisa-fotios-11141868.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -87,12 +76,12 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type: Person
+  name: KIM YEONGJIN
+  links:
+    - https://github.com/flowerroot
+    - https://www.linkedin.com/in/flowerroot
 
 # Analytics
 analytics:
@@ -104,24 +93,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "KIM YEONGJIN"
-  avatar           : "/assets/images/KakaoTalk_20230430_0101073692.jpg"
-  bio              : "안녕하세요 영진의 블로그입니다."
-  location         : "Seoul, Republic of korea"
-  email            : "yeongjin2573@gmail.com"
+  name: "KIM YEONGJIN"
+  avatar: "/assets/images/KakaoTalk_20230430_0101073692.jpg"
+  bio: "C++ Machine Vision Engineer | MFC · OpenCV · Open eVision"
+  location: "Dongtan, South Korea"
+  email: "yeongjin2573@gmail.com"
   links:
-   #- label: "Email"
-   #  icon: "fas fa-fw fa-envelope-square"
-   #  url: "mailto:yeongjin2573@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://flowerroot.github.io"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100003563542832"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/flowerroot"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/flowerroot"
+
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/profile.php?id=100003563542832"
+
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/flowerroot/?hl=ko"
@@ -129,26 +118,21 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:yeongjin2573@gmail.com
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100003563542832"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/flowerroot"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/flowerroot"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/profile.php?id=100003563542832"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/flowerroot/?hl=ko"
-
-
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:yeongjin2573@gmail.com
 # Reading Files
 include:
   - .htaccess
@@ -287,7 +271,7 @@ defaults:
       comments: true
       share: true
       related: true
-      show_date: truesda
+      show_date: true
       sidebar:                  # 추가한 부분
         #nav: "docs"             # 추가한 부분
         nav: "sidebar-category" # 추가한 부분 !
